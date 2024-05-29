@@ -23,7 +23,8 @@
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #008374;
+  --color-primary: #04004f;
+  /* --color-primary: #008374; */
   --color-secondary: #f85a40;
 }
 * {
@@ -247,7 +248,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #00796b;
+  background: #090467;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -1977,12 +1978,14 @@ section {
     background-color: #fff;
   }
 }
-
+a {
+  text-decoration: none;
+}
 .hero .icon-box {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #008d7d;
+  background: #090467;
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;

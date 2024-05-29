@@ -5,6 +5,8 @@ import Banner from "./Banner";
 import AboutUs from "./AboutUs";
 import Technology from "../Shared/Technology";
 import Fotter from "../Shared/Fotter";
+import OurClients from "./OurClients";
+import Portfolio from "./Portfolio";
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
       <Banner />
       <AboutUs />
       <Technology/>
+      <OurClients/>
+      <Portfolio/>
       <Fotter/>
       
       
