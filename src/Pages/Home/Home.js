@@ -7,6 +7,11 @@ import Technology from "../Shared/Technology";
 import Fotter from "../Shared/Fotter";
 import OurClients from "./OurClients";
 import Portfolio from "./Portfolio";
+import Testimonials from "./Testimonials";
+import OurTeam from "./OurTeam";
+import Contact from "./Contact";
+import Blog from "./Blog";
+import Faq from "./Faq";
 
 const Home = () => {
   return (
@@ -17,7 +22,12 @@ const Home = () => {
       <AboutUs />
       <Technology/>
       <OurClients/>
+      <Testimonials/>
       <Portfolio/>
+      <OurTeam/>
+      <Faq/>
+      <Blog/>
+      <Contact/>
       <Fotter/>
       
       

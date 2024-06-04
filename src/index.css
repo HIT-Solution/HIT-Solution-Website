@@ -27,6 +27,7 @@
   /* --color-primary: #008374; */
   --color-secondary: #f85a40;
 }
+
 * {
   margin: 0px;
   padding: 0px;
@@ -1740,7 +1741,7 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #009282;
+  background-color: #090467;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -1813,7 +1814,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #059652;
+  background: #04004f;
   text-align: center;
   padding: 15px;
   font-weight: 600;

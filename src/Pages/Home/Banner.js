@@ -14,12 +14,12 @@ const Banner = () => {
               Company In Bangladesh.
             </p>
             <div class="d-flex justify-content-center justify-content-lg-start">
-              <a href="#about" class="btn-get-started">
+              <a href="#about"  className='btn-get-started text-decoration-none'>
                 Get Started
               </a>
               <a
                 href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-                class="glightbox btn-watch-video d-flex align-items-center"
+                class="glightbox btn-watch-video d-flex align-items-center text-decoration-none"
               >
                 <i class="bi bi-play-circle"></i>
                 <span>Watch Video</span>
@@ -51,7 +51,7 @@ const Banner = () => {
                   <i class="bi bi-easel"></i>
                 </div>
                 <h4 class="title">
-                  <a href="" class="stretched-link">
+                  <a href="" class="stretched-link text-decoration-none">
                     Portfolio
                   </a>
                 </h4>
@@ -68,7 +68,7 @@ const Banner = () => {
                   <i class="bi bi-gem"></i>
                 </div>
                 <h4 class="title">
-                  <a href="" class="stretched-link">
+                  <a href="" class="stretched-link text-decoration-none">
                     SkillHub
                   </a>
                 </h4>
@@ -85,7 +85,7 @@ const Banner = () => {
                   <i class="bi bi-geo-alt"></i>
                 </div>
                 <h4 class="title">
-                  <a href="" class="stretched-link">
+                  <a href="" class="stretched-link text-decoration-none">
                     Basakhuzi.com
                   </a>
                 </h4>
@@ -102,7 +102,7 @@ const Banner = () => {
                   <i class="bi bi-command"></i>
                 </div>
                 <h4 class="title">
-                  <a href="" class="stretched-link">
+                  <a href="" class="stretched-link text-decoration-none">
                     HIT Lab
                   </a>
                 </h4>

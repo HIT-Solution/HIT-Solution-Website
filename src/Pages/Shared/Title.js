@@ -8,7 +8,7 @@ const Title = () => {
         <div className="container d-flex justify-content-center justify-content-md-between">
           <div className="contact-info d-flex align-items-center">
             <i className="bi bi-envelope d-flex align-items-center">
-              <a href="mailto:hasansit48@gmail.com">hasansit48@gmail.com</a>
+              <a href="mailto:hasansit48@gmail.com" className='text-decoration-none'>hasansit48@gmail.com</a>
             </i>
             <i className="bi bi-phone d-flex align-items-center ms-4">
               <span>+8801950090248</span>
