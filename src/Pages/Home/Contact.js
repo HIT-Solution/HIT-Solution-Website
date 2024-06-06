@@ -19,37 +19,44 @@ const Contact = () => {
           <div class="col-lg-4">
          
               <div class="info-container d-flex flex-column align-items-center justify-content-center">
-                <div class="info-item d-flex">
-                  <i class="bi bi-geo-alt flex-shrink-0"></i>
-                  <div>
-                    <h4>Location:</h4>
-                    <p>A108 Adam Street, New York, NY 535022</p>
-                  </div>
-                </div>
+              <div class="info-item d-flex">
+  <a href="https://maps.google.com/?q=A108+Adam+Street,+New+York,+NY+535022" target="_blank">
+    <i class="bi bi-geo-alt flex-shrink-0"></i>
+  </a>
+  <div>
+    <h4>Location:</h4>
+    <p>A108 Adam Street, New York, NY 535022</p>
+  </div>
+</div>
 
-                <div class="info-item d-flex">
-                  <i class="bi bi-envelope flex-shrink-0"></i>
-                  <div>
-                    <h4>Email:</h4>
-                    <p>hasansit48@gmail.com</p>
-                  </div>
-                </div>
+<div class="info-item d-flex">
+  <a href="mailto:hasansit48@gmail.com">
+    <i class="bi bi-envelope flex-shrink-0"></i>
+  </a>
+  <div>
+    <h4>Email:</h4>
+    <p>hasansit48@gmail.com</p>
+  </div>
+</div>
 
-                <div class="info-item d-flex">
-                  <i class="bi bi-phone flex-shrink-0"></i>
-                  <div>
-                    <h4>Call:</h4>
-                    <p>+8801950090248</p>
-                  </div>
-                </div>
+<div class="info-item d-flex">
+  <a href="https://wa.me/8801950090248" target="_blank">
+    <i class="bi bi-phone flex-shrink-0"></i>
+  </a>
+  <div>
+    <h4>Call:</h4>
+    <p>+8801950090248</p>
+  </div>
+</div>
 
-                <div class="info-item d-flex">
-                  <i class="bi bi-clock flex-shrink-0"></i>
-                  <div>
-                    <h4>Open Hours:</h4>
-                    <p>Mon-Sat: 11AM - 23PM</p>
-                  </div>
-                </div>
+<div class="info-item d-flex">
+  <i class="bi bi-clock flex-shrink-0"></i>
+  <div>
+    <h4>Open Hours:</h4>
+    <p>Mon-Sat: 11AM - 23PM</p>
+  </div>
+</div>
+
               </div>
            
           </div>
