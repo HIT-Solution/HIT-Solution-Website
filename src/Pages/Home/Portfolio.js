@@ -11,6 +11,7 @@ import service9 from "../assets/img/portfolio/app-3.jpg";
 import service10 from "../assets/img/portfolio/product-3.jpg";
 import service11 from "../assets/img/portfolio/branding-3.jpg";
 import service12 from "../assets/img/portfolio/books-3.jpg";
+import { Bounce } from "react-reveal";
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("*");
@@ -46,8 +47,8 @@ const Portfolio = () => {
               nostrum enim velit qui ut et autem uia reprehenderit sunt deleniti
             </p>
           </div>
-
-          <div
+<Bounce bottom>
+<div
             className="portfolio-isotope"
             data-portfolio-filter="*"
             data-portfolio-layout="masonry"
@@ -117,6 +118,9 @@ const Portfolio = () => {
               ))}
             </div>
           </div>
+</Bounce>
+
+          
         </div>
       </section>
     </div>

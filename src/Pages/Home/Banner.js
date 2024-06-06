@@ -1,9 +1,14 @@
 import React from "react";
+import { Bounce } from "react-reveal";
 
 const Banner = () => {
   return (
     <section id="hero" class="hero">
+    
+
+      
       <div class="container position-relative">
+      <Bounce left>
         <div class="row gy-5" data-aos="fade-in">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
             <h2>
@@ -36,7 +41,9 @@ const Banner = () => {
             />
           </div>
         </div>
+        </Bounce>
       </div>
+      
 
       <div class="icon-boxes position-relative">
         <div class="container position-relative">
