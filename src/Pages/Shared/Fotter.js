@@ -14,9 +14,9 @@ const Footer = () => {
             <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
             <div className="social-links d-flex mt-4">
               <a href="https://www.google.com/" target='_blank' className="twitter text-decoration-none"><i className="bi bi-twitter"></i></a>
-              <a href="https://www.facebook.com/" target='_blank'  className="facebook text-decoration-none"><i className="bi bi-facebook"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=61558698256495" target='_blank'  className="facebook text-decoration-none"><i className="bi bi-facebook"></i></a>
               <a href="https://www.instagram.com/" target='_blank' className="instagram text-decoration-none"><i className="bi bi-instagram"></i></a>
-              <a href="https://www.linkedin.com/" target='_blank' className="linkedin text-decoration-none"><i className="bi bi-linkedin"></i></a>
+              <a href="https://www.linkedin.com/company/hasansit/" target='_blank' className="linkedin text-decoration-none"><i className="bi bi-linkedin"></i></a>
             </div>
           </div>
 
