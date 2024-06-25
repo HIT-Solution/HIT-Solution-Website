@@ -36,7 +36,8 @@ const Faq = () => {
                       data-bs-target="#faq-content-1"
                     >
                       <span class="num">1.</span>
-                      Non consectetur a erat nam at lectus urna duis?
+                      What types of IoT projects does your company specialize
+                      in?
                     </button>
                   </h3>
                   <div
@@ -45,10 +46,9 @@ const Faq = () => {
                     data-bs-parent="#faqlist"
                   >
                     <div class="accordion-body">
-                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna
-                      id volutpat lacus laoreet non curabitur gravida. Venenatis
-                      lectus magna fringilla urna porttitor rhoncus dolor purus
-                      non.
+                      We specialize in a wide range of IoT projects including
+                      smart home automation, industrial IoT solutions, wearable
+                      devices, and IoT platforms integration.
                     </div>
                   </div>
                 </div>
@@ -62,8 +62,8 @@ const Faq = () => {
                       data-bs-target="#faq-content-2"
                     >
                       <span class="num">2.</span>
-                      Feugiat scelerisque varius morbi enim nunc faucibus a
-                      pellentesque?
+                      Can you handle both frontend and backend development for
+                      websites?
                     </button>
                   </h3>
                   <div
@@ -72,12 +72,9 @@ const Faq = () => {
                     data-bs-parent="#faqlist"
                   >
                     <div class="accordion-body">
-                      Dolor sit amet consectetur adipiscing elit pellentesque
-                      habitant morbi. Id interdum velit laoreet id donec
-                      ultrices. Fringilla phasellus faucibus scelerisque
-                      eleifend donec pretium. Est pellentesque elit ullamcorper
-                      dignissim. Mauris ultrices eros in cursus turpis massa
-                      tincidunt dui.
+                      Yes, we provide full-stack website development services,
+                      covering everything from user interface design to
+                      server-side logic and database integration.
                     </div>
                   </div>
                 </div>
@@ -91,8 +88,7 @@ const Faq = () => {
                       data-bs-target="#faq-content-3"
                     >
                       <span class="num">3.</span>
-                      Dolor sit amet consectetur adipiscing elit pellentesque
-                      habitant morbi?
+                      Do you develop apps for both Android and iOS platforms?
                     </button>
                   </h3>
                   <div
@@ -101,12 +97,10 @@ const Faq = () => {
                     data-bs-parent="#faqlist"
                   >
                     <div class="accordion-body">
-                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices
-                      sagittis orci. Faucibus pulvinar elementum integer enim.
-                      Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
-                      tellus pellentesque eu tincidunt. Lectus urna duis
-                      convallis convallis tellus. Urna molestie at elementum eu
-                      facilisis sed odio morbi quis
+                      Absolutely, our mobile app development team is proficient
+                      in creating native apps for both Android and iOS, ensuring
+                      seamless performance and user experience across different
+                      devices.
                     </div>
                   </div>
                 </div>
@@ -120,7 +114,7 @@ const Faq = () => {
                       data-bs-target="#faq-content-4"
                     >
                       <span class="num">4.</span>
-                      Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                      What areas of Machine Learning and AI do you focus on?
                     </button>
                   </h3>
                   <div
@@ -129,12 +123,10 @@ const Faq = () => {
                     data-bs-parent="#faqlist"
                   >
                     <div class="accordion-body">
-                      Dolor sit amet consectetur adipiscing elit pellentesque
-                      habitant morbi. Id interdum velit laoreet id donec
-                      ultrices. Fringilla phasellus faucibus scelerisque
-                      eleifend donec pretium. Est pellentesque elit ullamcorper
-                      dignissim. Mauris ultrices eros in cursus turpis massa
-                      tincidunt dui.
+                      We focus on various applications of Machine Learning and
+                      AI, including natural language processing, predictive
+                      analytics, recommendation systems, and automated
+                      decision-making algorithms.
                     </div>
                   </div>
                 </div>
@@ -147,8 +139,8 @@ const Faq = () => {
                       data-bs-target="#faq-content-5"
                     >
                       <span class="num">5.</span>
-                      Tempus quam pellentesque nec nam aliquam sem et tortor
-                      consequat?
+                      How do you approach 3D modeling and architectural design
+                      projects?
                     </button>
                   </h3>
                   <div
@@ -157,11 +149,10 @@ const Faq = () => {
                     data-bs-parent="#faqlist"
                   >
                     <div class="accordion-body">
-                      Molestie a iaculis at erat pellentesque adipiscing
-                      commodo. Dignissim suspendisse in est ante in. Nunc vel
-                      risus commodo viverra maecenas accumsan. Sit amet nisl
-                      suscipit adipiscing bibendum est. Purus gravida quis
-                      blandit turpis cursus in
+                      We leverage advanced software tools to create detailed 3D
+                      models and architectural designs, catering to diverse
+                      needs such as real estate visualization, product
+                      prototyping, and virtual simulations.
                     </div>
                   </div>
                 </div>
