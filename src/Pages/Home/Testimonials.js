@@ -8,66 +8,77 @@ import testimonials2 from "../assets/img/testimonials/testimonials-2.jpg";
 import testimonials3 from "../assets/img/testimonials/testimonials-3.jpg";
 import testimonials4 from "../assets/img/testimonials/testimonials-4.jpg";
 import testimonials5 from "../assets/img/testimonials/testimonials-5.jpg";
+import ReactCountryFlag from "react-country-flag";
 
 const Testimonials = () => {
   const reviews = [
     {
       name: "othman00101",
       country: "United States",
+      countryCode: "US",
       review:
         "TrueFact is completely patient and so passionate about IoT solutions that he immediately took an interest in my project and gave it undivided attention. Whenever there was an issue, he kept trying different efficient solutions to deliver exactly what I asked for. I would recommend him to anyone who needs a custom embedded system design solution for their business or IoT projects and I will use him again. Thank you, TrueFact",
     },
     {
       name: "heel3r",
       country: "United States",
+      countryCode: "US",
       review:
         "The seller overcharged me for work that he knew would be very easy to deliver. His delivery consisted of sample code from GitHub that he passed off as hours of work.",
     },
     {
       name: "grantoswald",
       country: "Australia",
+      countryCode: "AU",
       review:
         "The team communicated well and was able to quickly comprehend the requirements. They listened well and asked appropriate questions Look forward to future projects with them.",
     },
     {
       name: "jamescscoleman",
       country: "United States",
+      countryCode: "US",
       review:
         "Great service. The seller was very easygoing and easy to get along with. He threw in complimentary Arduino code to interface with the IOT device",
     },
     {
       name: "nickbogaerts450",
       country: "Belgium",
+      countryCode: "BE",
       review:
         "Aryan was very helpful in coding my programme. Every question I asked was answered and solved perfectly.",
     },
     {
       name: "mcarranco",
       country: "United States",
+      countryCode: "US",
       review:
         "He listened to my inexperienced needs and made me feel welcomed. Very easy to talk to. I will definitely use it for future projects.",
     },
     {
       name: "andy_min",
       country: "South Korea",
+      countryCode: "KR",
       review:
         "I had a great experience working with this app development contractor. He demonstrated a high level of responsibility and completed the work quickly. His promptness and attention to detail in delivering the project were impressive. I highly recommend his services for anyone looking for reliable and efficient app development work.",
     },
     {
       name: "rspebble",
       country: "United States",
+      countryCode: "US",
       review:
         "I was very satisfied with this work. Aryan was great to work with. Quick communication and delivery. Rapid responses and being willing to stay up late to help a client. I will come back again.",
     },
     {
       name: "miroslavbor",
       country: "United States",
+      countryCode: "US",
       review:
         "He delivered what we needed. We went back and forth in our communication, and he was willing to meet all of our requirements each time. I would recommend him, and we will definitely consider working with him again in the future.",
     },
     {
       name: "design_goat",
       country: "United States",
+      countryCode: "US",
       review:
         "Aryan was great at working with my revisions and also sent me extra code for a Flutter app. Would recommend it!",
     },
@@ -79,18 +90,21 @@ const Testimonials = () => {
     {
       name: "tippytovi2",
       country: "United States",
+      countryCode: "US",
       review:
         "Very helpful. Strong knowledge of the topic to fix issues quickly. Highly recommend it.",
     },
     {
       name: "tippytovi2",
       country: "United States",
+      countryCode: "US",
       review:
         "Very helpful. Adheres to tight deadlines. Was able to fix all the problems.",
     },
     {
       name: "othman00101",
       country: "United States",
+      countryCode: "US",
       review: "Aryan offers amazing care and service. I would use him again",
     },
     {
@@ -102,22 +116,26 @@ const Testimonials = () => {
     {
       name: "mcarranco",
       country: "United States",
+      countryCode: "US",
       review:
         "Very easy to talk to and understands your needs. 100% will use again!",
     },
     {
       name: "mcarranco",
       country: "United States",
+      countryCode: "US",
       review: "Above and beyond my expectations. 100% will use again.",
     },
     {
       name: "astrfera",
       country: "Saudi Arabia",
+      countryCode: "SA",
       review: "Good to work with, I will hire him again",
     },
     {
       name: "astrfera",
       country: "Saudi Arabia",
+      countryCode: "SA",
       review: "It is my second time working with",
     },
   ];
@@ -196,7 +214,14 @@ const Testimonials = () => {
                           />
                           <div>
                             <h3>{review?.name}</h3>
-                            <h4>({review?.country})</h4>
+                            <h4>
+                              {review?.country}{" "}
+                              <ReactCountryFlag
+                                style={{ fontSize: "20px" }}
+                                countryCode={review?.countryCode}
+                                svg
+                              />
+                            </h4>
                             <div className="stars">
                               <i className="bi bi-star-fill"></i>
                               <i className="bi bi-star-fill"></i>
