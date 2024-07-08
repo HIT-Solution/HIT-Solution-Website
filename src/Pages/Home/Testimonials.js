@@ -173,12 +173,9 @@ const Testimonials = () => {
     <section id="testimonials" className="testimonials">
       <div className="container" data-aos="fade-up">
         <div className="section-header text-center">
-          <h2>Testimonials</h2>
+          
           <Bounce bottom>
-            <p>
-              Voluptatem quibusdam ut ullam perferendis repellat non ut
-              consequuntur est eveniet deleniti fignissimos eos quam
-            </p>
+          <h2>Testimonials</h2>
           </Bounce>
         </div>
 

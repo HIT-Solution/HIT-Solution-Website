@@ -68,7 +68,7 @@ const Contact = () => {
             <div class="info-container d-flex flex-column align-items-center justify-content-center">
               <div class="info-item d-flex">
                 <a
-                  href="https://maps.google.com/?q=A108+Adam+Street,+New+York,+NY+535022"
+                  href="https://maps.app.goo.gl/E3QiLxcrkZrnEP616"
                   target="_blank"
                 >
                   <i class="bi bi-geo-alt flex-shrink-0"></i>
@@ -106,7 +106,7 @@ const Contact = () => {
                 <i class="bi bi-clock flex-shrink-0"></i>
                 <div>
                   <h4>Open Hours:</h4>
-                  <p>Mon-Sat: 11AM - 23PM</p>
+                  <p>Sun-Thu : 9AM - 6PM</p>
                 </div>
               </div>
             </div>

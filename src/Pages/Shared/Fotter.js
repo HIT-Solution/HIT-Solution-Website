@@ -3,6 +3,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap/dist/css/bootstrap.min.css"; // Ensure Bootstrap CSS is imported
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer id="footer" className="footer">
       <div className="container">
@@ -131,12 +132,8 @@ const Footer = () => {
                 H 20, Lutfunnesa Road, Priyanka City, Sector 12, Uttara, Dhaka,
                 Bangladesh.
               </li>
-              <li>
-                <strong>Phone:</strong> +8801950090248
-              </li>
-              <li>
-                <strong>Email:</strong> hasansit48@gmail.com
-              </li>
+              <p>Phone:+8801950090248</p>
+              <p>Email:hasansit48@gmail.com</p>
             </ul>
           </div>
 
@@ -158,7 +155,7 @@ const Footer = () => {
 
       <div className="container mt-4">
         <div className="copyright">
-          &copy; Copyright 2024{" "}
+          &copy; Copyright {currentYear}{" "}
           <strong>
             <span>Hasan's IT Solution</span>
           </strong>
