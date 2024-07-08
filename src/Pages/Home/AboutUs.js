@@ -42,10 +42,10 @@ const AboutUs = () => {
 
                 <div className="position-relative mt-4">
                   <img src={about2} className="img-fluid rounded-4" alt="" />
-                  <a
+                  {/* <a
                     href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
                     className="glightbox play-btn"
-                  ></a>
+                  ></a> */}
                 </div>
               </div>
             </div>

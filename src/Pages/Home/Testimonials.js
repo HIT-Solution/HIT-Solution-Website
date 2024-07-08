@@ -8,6 +8,7 @@ import testimonials2 from "../assets/img/testimonials/testimonials-2.jpg";
 import testimonials3 from "../assets/img/testimonials/testimonials-3.jpg";
 import testimonials4 from "../assets/img/testimonials/testimonials-4.jpg";
 import testimonials5 from "../assets/img/testimonials/testimonials-5.jpg";
+import manIamge from "../assets/img/man.png";
 import ReactCountryFlag from "react-country-flag";
 
 const Testimonials = () => {
@@ -18,13 +19,6 @@ const Testimonials = () => {
       countryCode: "US",
       review:
         "TrueFact is completely patient and so passionate about IoT solutions that he immediately took an interest in my project and gave it undivided attention. Whenever there was an issue, he kept trying different efficient solutions to deliver exactly what I asked for. I would recommend him to anyone who needs a custom embedded system design solution for their business or IoT projects and I will use him again. Thank you, TrueFact",
-    },
-    {
-      name: "heel3r",
-      country: "United States",
-      countryCode: "US",
-      review:
-        "The seller overcharged me for work that he knew would be very easy to deliver. His delivery consisted of sample code from GitHub that he passed off as hours of work.",
     },
     {
       name: "grantoswald",
@@ -202,11 +196,11 @@ const Testimonials = () => {
                               index === 0
                                 ? testimonials1
                                 : index === 1
-                                ? testimonials2
+                                ? testimonials4
                                 : index === 2
                                 ? testimonials3
                                 : index === 3
-                                ? testimonials4
+                                ? testimonials1
                                 : testimonials5
                             }
                             className="testimonial-img flex-shrink-0"
