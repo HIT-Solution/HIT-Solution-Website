@@ -239,7 +239,7 @@ const Testimonials = () => {
                       </div>
                     </div>
                   </div>
-                ))}
+                ))}zQ
               </Slider>
             </Bounce>
           </div>
