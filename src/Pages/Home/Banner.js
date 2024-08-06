@@ -1,49 +1,49 @@
 import React from "react";
 import { Bounce } from "react-reveal";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
     <section id="hero" class="hero">
-    
-
-      
       <div class="container position-relative">
-      <Bounce left>
-        <div class="row gy-5" data-aos="fade-in">
-          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
-            <h2>
-              Welcome to <span>Hasan's IT Solution</span>
-            </h2>
-            <p>
-              Leading Website, Mobile App, IoT, and Custom Software Solutions
-              Company In Bangladesh.
-            </p>
-            <div class="d-flex justify-content-center justify-content-lg-start">
-              <a href="#about"  className='btn-get-started text-decoration-none'>
-                Get Started
-              </a>
-              <a
-                href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-                class="glightbox btn-watch-video d-flex align-items-center text-decoration-none"
-              >
-                <i class="bi bi-play-circle"></i>
-                <span>Watch Video</span>
-              </a>
+        <Bounce left>
+          <div class="row gy-5" data-aos="fade-in">
+            <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
+              <h2>
+                Welcome to <span>Hasan's IT Solution</span>
+              </h2>
+              <p>
+                Leading Website, Mobile App, IoT, and Custom Software Solutions
+                Company In Bangladesh.
+              </p>
+              <div class="d-flex justify-content-center justify-content-lg-start">
+                <a
+                  href="#about"
+                  className="btn-get-started text-decoration-none"
+                >
+                  Get Started
+                </a>
+                <a
+                  
+                  class="glightbox btn-watch-video d-flex align-items-center text-decoration-none"
+                >
+                  <i class="bi bi-play-circle"></i>
+                  <span>Watch Video</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2">
+              <img
+                src="../src/Pages/assets/img/hero-img.svg"
+                class="img-fluid"
+                alt=""
+                data-aos="zoom-out"
+                data-aos-delay="100"
+              />
             </div>
           </div>
-          <div class="col-lg-6 order-1 order-lg-2">
-            <img
-              src="../src/Pages/assets/img/hero-img.svg"
-              class="img-fluid"
-              alt=""
-              data-aos="zoom-out"
-              data-aos-delay="100"
-            />
-          </div>
-        </div>
         </Bounce>
       </div>
-      
 
       <div class="icon-boxes position-relative">
         <div class="container position-relative">
@@ -58,7 +58,11 @@ const Banner = () => {
                   <i class="bi bi-easel"></i>
                 </div>
                 <h4 class="title">
-                  <a href="" class="stretched-link text-decoration-none">
+                  <a
+                    href="/developmentProjected"
+                    target="_blank"
+                    className="stretched-link text-decoration-none"
+                  >
                     Portfolio
                   </a>
                 </h4>
@@ -75,7 +79,11 @@ const Banner = () => {
                   <i class="bi bi-gem"></i>
                 </div>
                 <h4 class="title">
-                  <a href="" class="stretched-link text-decoration-none">
+                  <a
+                    href="/developmentProjected"
+                    target="_blank"
+                    className="stretched-link text-decoration-none"
+                  >
                     SkillHub
                   </a>
                 </h4>
@@ -92,7 +100,9 @@ const Banner = () => {
                   <i class="bi bi-geo-alt"></i>
                 </div>
                 <h4 class="title">
-                  <a href="" class="stretched-link text-decoration-none">
+                  <a href="/developmentProjected"
+                    target="_blank"
+                    className="stretched-link text-decoration-none">
                     Basakhuzi.com
                   </a>
                 </h4>
@@ -109,7 +119,9 @@ const Banner = () => {
                   <i class="bi bi-command"></i>
                 </div>
                 <h4 class="title">
-                  <a href="" class="stretched-link text-decoration-none">
+                  <a href="/developmentProjected"
+                    target="_blank"
+                    className="stretched-link text-decoration-none">
                     HIT Lab
                   </a>
                 </h4>

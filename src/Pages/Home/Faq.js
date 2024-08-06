@@ -1,5 +1,9 @@
 import React from "react";
 import { Bounce } from "react-reveal";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import "bootstrap/dist/css/bootstrap.min.css"; 
+import faq from "../../../src/Pages/assets/img/faq.png"
+
 
 const Faq = () => {
   return (
@@ -11,11 +15,8 @@ const Faq = () => {
               <h3>
                 Frequently Asked <strong>Questions</strong>
               </h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
-                aute irure dolor in reprehenderit
-              </p>
+           
+             
             </div>
           </div>
 

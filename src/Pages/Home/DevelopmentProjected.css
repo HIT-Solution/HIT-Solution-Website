@@ -1,0 +1,27 @@
+@keyframes backgroundAnimation {
+    0% { background-color: #286680; }
+    50% { background-color: #1f4f60; }
+    100% { background-color: #286680; }
+  }
+  
+  @keyframes textAnimation {
+    0% { opacity: 0; transform: translateY(-10px); }
+    50% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(10px); }
+  }
+  
+  .background {
+    animation: backgroundAnimation 5s infinite alternate;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    animation: textAnimation 2s infinite;
+  }
+  

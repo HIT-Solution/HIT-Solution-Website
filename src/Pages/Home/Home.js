@@ -18,11 +18,8 @@ const Home = () => {
       <AboutUs />
       <Testimonials/>
       <Faq/>
-      <Blog/>
       <Contact/>
       <Fotter/>
-      
-      
     </div>
   );
 };
