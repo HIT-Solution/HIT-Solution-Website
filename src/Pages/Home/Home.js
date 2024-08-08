@@ -3,15 +3,11 @@ import Title from "../Shared/Title";
 import NavBar from "../Shared/NavBar";
 import Banner from "./Banner";
 import AboutUs from "./AboutUs";
-import Technology from "../Shared/Technology";
-import Fotter from "../Shared/Fotter";
-import OurClients from "./OurClients";
-import Portfolio from "./Portfolio";
 import Testimonials from "./Testimonials";
-import OurTeam from "./OurTeam";
 import Contact from "./Contact";
 import Blog from "./Blog";
 import Faq from "./Faq";
+import Fotter from "../Shared/Fotter"; 
 
 const Home = () => {
   return (
