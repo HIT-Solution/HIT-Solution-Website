@@ -1,4 +1,5 @@
 import "./App.css";
+import MainTopics from "./Pages/AllTopics/MainTopics";
 import DevelopmentProjected from "./Pages/Home/DevelopmentProjected";
 import Home from "./Pages/Home/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -9,13 +10,15 @@ function App() {
     <Router>
       <div>
         <Switch>
-        <Route path="/developmentprojected">
+          <Route path="/developmentprojected">
             <DevelopmentProjected />
+          </Route>
+          <Route path="/politicsnews">
+            <MainTopics />
           </Route>
           <Route path="/">
             <Home />
           </Route>
-          
         </Switch>
       </div>
     </Router>

@@ -23,10 +23,7 @@ const Banner = () => {
                 >
                   Get Started
                 </a>
-                <a
-                  
-                  class="glightbox btn-watch-video d-flex align-items-center text-decoration-none"
-                >
+                <a class="glightbox btn-watch-video d-flex align-items-center text-decoration-none">
                   <i class="bi bi-play-circle"></i>
                   <span>Watch Video</span>
                 </a>
@@ -100,9 +97,11 @@ const Banner = () => {
                   <i class="bi bi-geo-alt"></i>
                 </div>
                 <h4 class="title">
-                  <a href="/developmentProjected"
+                  <a
+                    href="/developmentProjected"
                     target="_blank"
-                    className="stretched-link text-decoration-none">
+                    className="stretched-link text-decoration-none"
+                  >
                     Basakhuzi.com
                   </a>
                 </h4>
@@ -119,10 +118,32 @@ const Banner = () => {
                   <i class="bi bi-command"></i>
                 </div>
                 <h4 class="title">
-                  <a href="/developmentProjected"
+                  <a
+                    href="/developmentProjected"
                     target="_blank"
-                    className="stretched-link text-decoration-none">
+                    className="stretched-link text-decoration-none"
+                  >
                     HIT Lab
+                  </a>
+                </h4>
+              </div>
+            </div>
+            <div
+              class="col-xl-3 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="icon-box">
+                <div class="icon">
+                  <i class="bi bi-command"></i>
+                </div>
+                <h4 class="title">
+                  <a
+                    href="/politicsnews"
+                    target="_blank"
+                    className="stretched-link text-decoration-none"
+                  >
+                    soon...24
                   </a>
                 </h4>
               </div>
